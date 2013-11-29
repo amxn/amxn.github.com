@@ -1,0 +1,180 @@
+/* COLORS
+/ Green = #2ecc71 (background)
+/ Text Gray = #5C5266 (text)
+/ Red = #e74c3c 
+/ Grayish blue = #bdc3c7
+/ Blue = #3498db (for links)
+*/
+
+body {
+	margin: 0;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
+
+.container{
+	font-family: 'Roboto', sans-serif; font-weight: 300;
+}
+
+h1 { font-size: 2.2em;}
+h2 { font-size: 2em;}
+h3 { font-size: 1.8em;}
+h4 { font-size: 1.6em;}
+h5 { font-size: 1.4em;}
+h6 { font-size: 1.2em;}
+
+
+
+.nav,
+#main, 
+#header,
+#social,
+#footer,
+{
+	margin: auto;
+	text-align: center;
+}
+
+#header{
+	text-transform: uppercase;
+	letter-spacing: .312em;
+	font-size: 3em;
+	text-align: center;
+	color: #fff ;
+	font-weight: 700;
+	padding: 3em 0;
+}
+
+.top-bar {
+	text-align: center;
+	margin: auto;
+	background-color: #2ecc71;
+	color: #fff ;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.nav, .nav a {
+	text-decoration: none;
+	color: #fff;
+	text-align: center;	
+}
+
+.navButton {
+  position: relative;
+  display: inline-block;
+  transition-property: background-color, color;
+  transition-duration: .6s;
+  transition-timing-function: ease-out;
+  text-align: left;
+  background-color: #2ecc71;
+  color: #fff;
+  text-decoration: none;
+  padding: 1.6em 1.6em;
+ }
+
+.navButton:hover {
+  position: relative;
+  transition-property: background-color, color;
+  transition-duration: .6s;
+  transition-timing-function: ease-out;
+  background-color:#27ae60;
+  text-shadow:0px 1px #2ecc71;
+  color: #060; /*#34495e*/
+}
+.content {
+	width: auto;
+	max-width: 620px;
+	margin: auto;
+	padding: 2.6em; /*35px*/
+	font-family: 'Roboto', sans-serif; font-weight: 300;
+	color: #5C5266;
+	line-height: normal; /*30px*/
+	text-align: center;
+}
+
+
+#main {
+	color: #5C5266;
+	font-size: 2.2em;
+	text-align: center;
+}
+
+#comp {
+	color: #3498db;
+	text-decoration: none;
+	background: none;
+	-webkit-transition: background 0.4s ease;
+	-moz-transition: background 0.4s ease;
+	-ms-transition: background 0.4s ease;
+	-o-transition: background 0.4s ease;
+	transition: background 0.4s ease;
+	padding: 0 .1em;
+}
+
+#comp:hover {
+	background: #2ecc71;
+	color: #fff;
+}
+
+#main > p:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#main > p {
+	margin: auto;
+	margin-bottom: 1em;
+}
+
+.important-text {
+	border-bottom: 1px dashed #999;
+	color: #2ecc71;
+}
+
+#social {
+	margin-top: 2em;
+}
+
+#social > p {
+	color: #5C5266;
+	font-size: 1.4em;
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+#social > a {
+	color: #3498db;
+	font-weight: 700;
+	text-decoration: none;
+	text-align: center;
+	margin: auto;
+	margin: 1.4em;
+
+}
+
+#social > a:hover {
+	border-bottom: dotted 1px #2ecc71;
+	color: #2ecc71;
+}
+
+#social > a:visited {
+	color: #e74c3c;
+	border-bottom: dotted 1px #e74c3c;
+}
+
+#footer{
+	border-top: 1px solid rgb(227, 227, 227);
+	color: #5C5266;
+	line-height: 30px;
+	margin: auto;
+	max-width: 620px;
+	padding: 1.4em;
+	text-align: center;
+	width: auto;
+}
+
+#heart{
+color: #e74c3c;
+}
