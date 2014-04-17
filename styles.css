@@ -7,23 +7,21 @@
 */
 
 body {
-	margin: 0;
+  margin: 0;
 }
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
 
 .container{
-	font-family: 'Roboto', sans-serif; font-weight: 300;
+  font-family: 'Roboto', sans-serif; font-weight: 300;
 }
 
-h1 { font-size: 2.2em;}
-h2 { font-size: 2em;}
-h3 { font-size: 1.8em;}
-h4 { font-size: 1.6em;}
-h5 { font-size: 1.4em;}
-h6 { font-size: 1.2em;}
-
-
+h1 {font-size: 2.2em;}
+h2 {font-size: 2em;}
+h3 {font-size: 1.8em;}
+h4 {font-size: 1.6em;}
+h5 {font-size: 1.4em;}
+h6 {font-size: 1.2em;}
 
 .nav,
 .main,
@@ -31,33 +29,33 @@ h6 { font-size: 1.2em;}
 .social,
 .footer,
 {
-	margin: auto;
-	text-align: center;
+  margin: auto;
+  text-align: center;
 }
 
 .header{
-	color: #fff ;
-	font-size: 3em;
-	font-weight: 700;
-	letter-spacing: .312em;
-	padding: 3em 0;
-	text-align: center;
-	text-transform: uppercase;
+  color: #fff ;
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: .312em;
+  padding: 3em 0;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .top-bar {
-	background-color: #2ecc71;
-	color: #fff ;
-	font-weight: 500;
-	margin: auto;
-	text-align: center;
-	text-transform: uppercase;
+  background-color: #2ecc71;
+  color: #fff ;
+  font-weight: 500;
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .nav, .nav a {
-	color: #fff;
-	text-align: center;	
-	text-decoration: none;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
 }
 
 .navButton {
@@ -84,110 +82,108 @@ h6 { font-size: 1.2em;}
 }
 
 .fadeIn {
-	animation-name: fadeIn;
-	-webkit-animation-name: fadeIn;
-	animation-duration: 1.5s;
-	-webkit-animation-duration: 1.5s;
-	animation-timing-function: ease-in-out;
-	-webkit-animation-timing-function: ease-in-out;
-	visibility: visible !important;
+  animation-name: fadeIn;
+  -webkit-animation-name: fadeIn;
+  animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
+  visibility: visible !important;
 }
 
 .content {
-	color: #5C5266;
-	font-family: 'Roboto', sans-serif; font-weight: 300;
-	line-height: normal; /*30px*/
-	margin: auto;
-	max-width: 620px;
-	padding: 2.6em; /*35px*/
-	text-align: center;
-	width: auto;
+  color: #5C5266;
+  font-family: 'Roboto', sans-serif; font-weight: 300;
+  line-height: normal; /*30px*/
+  margin: auto;
+  max-width: 620px;
+  padding: 2.6em; /*35px*/
+  text-align: center;
+  width: auto;
 }
 
-
 .main {
-	color: #5C5266;
-	font-size: 2.2em;
-	text-align: center;
+  color: #5C5266;
+  font-size: 2.2em;
+  text-align: center;
 }
 
 .comp {
-	background: none;
-	color: #3498db;
-	text-decoration: none;
-	-webkit-transition: background 0.4s ease;
-	-moz-transition: background 0.4s ease;
-	-ms-transition: background 0.4s ease;
-	-o-transition: background 0.4s ease;
-	transition: background 0.4s ease;
-	padding: 0 .1em;
+  background: none;
+  color: #3498db;
+  text-decoration: none;
+  -webkit-transition: background 0.4s ease;
+  -moz-transition: background 0.4s ease;
+  -ms-transition: background 0.4s ease;
+  -o-transition: background 0.4s ease;
+  transition: background 0.4s ease;
+  padding: 0 .1em;
 }
 
 .comp:hover {
-	background: #2ecc71;
-	color: #fff;
+  background: #2ecc71;
+  color: #fff;
 }
 
 .main > p:before {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .main > p {
-	margin: auto;
-	margin-bottom: 1em;
+  margin: auto;
+  margin-bottom: 1em;
 }
 
 .important-text {
-	border-bottom: 1px dashed #999;
-	color: #2ecc71;
+  border-bottom: 1px dashed #999;
+  color: #2ecc71;
 }
 
 .social {
-	margin-top: 2em;
+  margin-top: 2em;
 }
 
 .social > p {
-	color: #5C5266;
-	font-size: 1.4em;
-	text-align: center;
-	margin-bottom: 1em;
+  color: #5C5266;
+  font-size: 1.4em;
+  text-align: center;
+  margin-bottom: 1em;
 }
 
 .social > a {
-	color: #3498db;
-	font-weight: 700;
-	text-decoration: none;
-	text-align: center;
-	margin: auto;
-	margin: 1.4em;
-
+  color: #3498db;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  margin: auto;
+  margin: 1.4em;
 }
 
 .social > a:hover {
-	border-bottom: dotted 1px #2ecc71;
-	color: #2ecc71;
+  border-bottom: dotted 1px #2ecc71;
+  color: #2ecc71;
 }
 
 .social > a:visited {
-	border-bottom: dotted 1px #e74c3c;
-	color: #e74c3c;
+  border-bottom: dotted 1px #e74c3c;
+  color: #e74c3c;
 }
 
 .footer {
-	border-top: 1px solid rgb(227, 227, 227);
-	color: #5C5266;
-	line-height: 30px;
-	margin: auto;
-	max-width: 620px;
-	padding: 1.4em;
-	text-align: center;
-	width: auto;
+  border-top: 1px solid rgb(227, 227, 227);
+  color: #5C5266;
+  line-height: 30px;
+  margin: auto;
+  max-width: 620px;
+  padding: 1.4em;
+  text-align: center;
+  width: auto;
 }
 
 .heart {
-color: #e74c3c;
-font-size: 1.2em;
-margin: 3px;
+  color: #e74c3c;
+  font-size: 1.2em;
+  margin: 3px;
 }
