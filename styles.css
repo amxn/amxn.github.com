@@ -47,6 +47,11 @@ h6 {font-size: 1.2em;}
   text-transform: uppercase;
 }
 
+.header p {
+  font-size: 28px;
+  letter-spacing: 10px;
+}
+
 .top-bar {
   background-color: #2ecc71;
   color: #fff ;
