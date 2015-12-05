@@ -1,7 +1,7 @@
 /* COLORS
 / Green = #2ecc71 (background)
 / Text Gray = #5C5266 (text)
-/ Red = #e74c3c 
+/ Red = #e74c3c
 / Grayish blue = #bdc3c7
 / Blue = #3498db (for links)
 */
@@ -143,6 +143,37 @@ h6 {font-size: 1.2em;}
 .important-text {
   border-bottom: 1px dashed #999;
   color: #2ecc71;
+}
+
+.post {
+  border-bottom: 1px dotted rgb(227, 227, 227);
+}
+
+.post p {
+  line-height: 30px;
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.post a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px dotted #ccc;
+}
+
+.post a:hover {
+  border-bottom: 1px dotted #2ecc71;
+  color: #2ecc71;
+}
+
+.post .quote {
+  font-size: 160%;
+  line-height: 400%;
+  text-align: center;
+}
+
+.post .annotation {
+  font-size: .6em !important;
 }
 
 .social {
