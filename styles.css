@@ -162,11 +162,11 @@ h6 {font-size: 1.2em;}
 .post a {
   color: inherit;
   text-decoration: none;
-  border-bottom: 1px dotted #ccc;
+  border-bottom: 1px solid #ccc;
 }
 
 .post a:hover {
-  border-bottom: 1px dotted #2ecc71;
+  border-bottom: 1px solid #2ecc71;
   color: #2ecc71;
 }
 
