@@ -110,6 +110,10 @@ h6 {font-size: 1.2em;}
   width: auto;
 }
 
+.sub-heading {
+  text-align: left;
+}
+
 .main {
   color: #5C5266;
   font-size: 2.2em;
